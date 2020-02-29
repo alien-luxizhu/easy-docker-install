@@ -1,8 +1,8 @@
 # easy-docker-install / docker-ce傻瓜式安装
 
 
-1. docker-ce傻瓜式安装
-=====================
+## 1. docker-ce傻瓜式安装
+
 
 
 - 如果是国外的vps，用docker官方提供的安装脚本：
@@ -31,8 +31,8 @@
   #  sudo usermod -aG docker your-user
   ```
 
-2. 用apt安装docker-ce
-=================
+## 2. 用apt安装docker-ce
+
 - 为了确认所下载软件包的合法性，需要添加软件源的 GPG 密钥。
   ```
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
